@@ -1,0 +1,202 @@
+Enter number of rows and columns(should be greater then 1 ): Enter Start State row by row(0 for the empty spot): 
+Enter Goal State row by row(0 for the empty spot): 
+Total States = 1000
+Total States = 1000
+Total States = 2000
+Total States = 2000
+Total States = 3000
+Total States = 3000
+Elapsed time (s): 1.041
+
+Solution:
+
+
+Rank 1:
+
+1 2 3 
+4 5 6 
+7 8 0 
+
+left
+
+1 2 3 
+4 5 6 
+7 0 8 
+
+left
+
+1 2 3 
+4 5 6 
+0 7 8 
+
+up
+
+1 2 3 
+0 5 6 
+4 7 8 
+
+right
+
+1 2 3 
+5 0 6 
+4 7 8 
+
+right
+
+1 2 3 
+5 6 0 
+4 7 8 
+
+up
+
+1 2 0 
+5 6 3 
+4 7 8 
+
+left
+
+1 0 2 
+5 6 3 
+4 7 8 
+
+left
+
+0 1 2 
+5 6 3 
+4 7 8 
+
+down
+
+5 1 2 
+0 6 3 
+4 7 8 
+
+right
+
+5 1 2 
+6 0 3 
+4 7 8 
+
+right
+
+5 1 2 
+6 3 0 
+4 7 8 
+
+up
+
+5 1 0 
+6 3 2 
+4 7 8 
+
+left
+
+5 0 1 
+6 3 2 
+4 7 8 
+
+down
+
+5 3 1 
+6 0 2 
+4 7 8 
+
+left
+
+5 3 1 
+0 6 2 
+4 7 8 
+
+
+Rank 2:
+
+up
+
+0 3 1 
+5 6 2 
+4 7 8 
+
+right
+
+3 0 1 
+5 6 2 
+4 7 8 
+
+right
+
+3 1 0 
+5 6 2 
+4 7 8 
+
+down
+
+3 1 2 
+5 6 0 
+4 7 8 
+
+down
+
+3 1 2 
+5 6 8 
+4 7 0 
+
+left
+
+3 1 2 
+5 6 8 
+4 0 7 
+
+up
+
+3 1 2 
+5 0 8 
+4 6 7 
+
+left
+
+3 1 2 
+0 5 8 
+4 6 7 
+
+down
+
+3 1 2 
+4 5 8 
+0 6 7 
+
+right
+
+3 1 2 
+4 5 8 
+6 0 7 
+
+right
+
+3 1 2 
+4 5 8 
+6 7 0 
+
+up
+
+3 1 2 
+4 5 0 
+6 7 8 
+
+left
+
+3 1 2 
+4 0 5 
+6 7 8 
+
+left
+
+3 1 2 
+0 4 5 
+6 7 8 
+
+up
+
+0 1 2 
+3 4 5 
+6 7 8 
+

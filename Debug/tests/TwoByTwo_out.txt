@@ -1,0 +1,22 @@
+Enter number of rows and columns: Enter Start State row by row: 
+Enter Goal State row by row: 
+Elapsed time (s): 0.001
+
+Solution:
+
+
+Rank 1:
+
+1 2 
+3 0 
+
+left
+
+1 2 
+0 3 
+
+up
+
+0 2 
+1 3 
+

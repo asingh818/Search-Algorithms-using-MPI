@@ -1,0 +1,4 @@
+Enter number of rows and columns: Enter Start State row by row: 
+Enter Goal State row by row: 
+Elapsed time (s): 0.003
+Did not find a solution.
